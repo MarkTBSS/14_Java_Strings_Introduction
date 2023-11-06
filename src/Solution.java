@@ -11,7 +11,7 @@ public class Solution {
         System.out.println(a.length() + b.length());
         scanner.close();
 
-        String compareResult = LexCompare.compareStrings(a, b);
+        int compareResult = LexCompare.compareStrings(a, b);
         System.out.println(compareResult);
 
         String aUpper = a.substring(0, 1).toUpperCase()
